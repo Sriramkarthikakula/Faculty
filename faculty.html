@@ -1,0 +1,1724 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <script src="https://code.jquery.com/jquery-3.7.0.js" integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous"></script>
+
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+        <title>SRKR CSE</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="faculty.css">
+    </head>
+    <body>
+      <div style="z-index:1;margin-bottom:120px;" class="acting slideshow-images">
+        <nav id="navbar" class="navbar navbar-expand-lg navback fixed-top" style="padding-top: 0;padding-bottom: 0;background-color: white;box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.5);color:black;">
+            <div class="container-fluid" style="display: flex;">
+              <a class="navbar-brand" href="#"><img class="srkrlogo" src="./assests/images/logo.png" alt=""></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation" style="background-color: white;">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavDropdown" style="justify-content: right;">
+                <ul class="navbar-nav navback1">
+                  <li class="nav-item">
+                    <a class="nav-link"  href="index.html" role="button" aria-expanded="false" style="color: black;margin-right:5px">Home</a>
+                </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle"  href="#" role="button" aria-expanded="false" style="color: black;">About</a>
+                        <ul class="dropdown-menu navback">
+                            <li><a class="dropdown-item itemlink" href="faculty.html"><b>Faculty</b></a></li>
+                            <li><a class="dropdown-item itemlink" href="facilities.html"><b>Facilities</b></a></li>
+                            <li><a class="dropdown-item itemlink" href="#">Labs</a></li>
+                            <li><a class="dropdown-item itemlink" href="#">Contacts</a></li>
+                            <li><a class="dropdown-item itemlink" href="alumini.html"><b>Alumini</b></a></li>
+                            <li><a class="dropdown-item itemlink" href="vismis.html"><b>Vision & Mission</b></a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown aclink">
+                      <a class="nav-link dropdown-toggle"  href="#" role="button" aria-expanded="false" style="color: black;">Academic</a>
+                      <ul class="dropdown-menu navback acabout">
+                          <li><a class="dropdown-item navlink" href="syllabus.html"><b>Syllabus</b></a></li>
+                          <li><a class="dropdown-item navlink" href="timetables.html"><b>TimeTables</b></a></li>
+                          <li><a class="dropdown-item navlink" href="eresources.html"><b>e-Resources</b></a></li>
+                      </ul>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle"  href="#" role="button" aria-expanded="false" style="color: black;">Administration</a>
+                    <ul class="dropdown-menu navback">
+                        <li><a class="dropdown-item navlink" href="#"><b>Board of Studies</b></a></li>
+                    </ul>
+                </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false" style="color: black;">Accomplishments</a>
+                    <ul class="dropdown-menu navback">
+                        <li><a class="dropdown-item navlink" href="#"><b>Awards</b></a></li>
+                        <li><a class="dropdown-item navlink" href="#"><b>Placements</b></a></li>
+                        <li><a class="dropdown-item navlink" href="#"><b>Publications</b></a></li>
+                    </ul>
+                </li>
+                </ul>
+              </div>
+            </div>
+        </nav>
+        </div>
+        <section>
+          <h1 align="center">Our HOD Desk</h1>
+          <div class="imgcontainer1">
+            <div class="imgcontainer__half-image" id="halfImage"></div>
+            <div class="imgcontainer__half-content">
+              <h2 class="item-type">HEAD OF THE DEPARTMENT</h2>
+              <h3 class="item-title">Dr. V. Chandra Sekhar</h3>
+              <p class="item-description">
+                <h6>Contact: <span class="detail">+919440351652</span></h6>
+                <h6>Email ID: <span class="detail">dr.vcs@srkrec.ac.in</span></h6>
+                <h6>Address: <span class="detail">SRKR Engineering College,
+                  Bhimavaram,
+                  West Godavari,
+                  Andhra pradesh.</span></h6>
+                </p><br>
+                <a href="https://drive.google.com/file/d/17Q0MDhRf8rdtif-pI6lfBPRrD9m8NsFE/view?usp=sharing"><button class="button button1">Profile</button></a>&nbsp;&nbsp;&nbsp;
+                <a href="https://www.google.com/url?q=https%3A%2F%2Fsites.google.com%2Fview%2Fsrkrvcs&sa=D&sntz=1&usg=AOvVaw3g-fV1B6Mx6x4v6Qa-83UN"><button class="button button1">Site</button></a>
+              </div>
+          </div>
+        </section>
+        <section style="margin-bottom: 4%;">
+          <div class="container text-center">
+            <div class="row row-cols-1 row-cols-lg-4 g-2 g-lg-2">
+              <div class="col">
+                <div class="sizing dis1">
+                  <div class="p-3">Professors</div>
+                </div>
+              </div>
+              <div class="col ">
+                <div class="sizing dis2">
+                  <div class="p-3">Assoc Professors</div>
+                </div>
+              </div>
+              <div class="col ">
+                <div class="sizing dis3">
+                  <div class="p-3">Asst Professors</div>
+                </div>
+              </div>
+              <div class="col ">
+                <div class="sizing dis4">
+                  <div class="p-3">Non-Teaching Staff</div>
+                </div>
+              </div>
+              
+            </div>
+          </div>
+        </section>
+        <div class="down-container div1">
+            <h1 class="heading" style="text-align: center;">Professors</h1>
+            <hr>
+            <div class="container">
+                <div class="row">
+                  <div class="col text-center">
+                    <img src="./assests/images/1(1),B204.jpg" class="img">
+                  </div>
+                  <div class="marg1 col">
+                      <h2>Dr. V CHANDRA SEKHAR</h2>
+                      <p>Professor & Head of the Department</p>
+                      <p>EMAIL: dr.vcs@srkrec.ac.in</p>
+                      <p>Cabin: {B 204}</p>
+                      <a href="https://drive.google.com/file/d/17Q0MDhRf8rdtif-pI6lfBPRrD9m8NsFE/view?usp=sharing"><button class="button button1">Profile</button></a>&nbsp;&nbsp;&nbsp;
+                      <a href="https://www.google.com/url?q=https%3A%2F%2Fsites.google.com%2Fview%2Fsrkrvcs&sa=D&sntz=1&usg=AOvVaw3g-fV1B6Mx6x4v6Qa-83UN"><button class="button button1">Site</button></a>
+
+                  </div>
+                  <div class="col">
+                      <button class="button but1">Artificial intelligence and machine learning</button>
+                      <div class="d-flex flex-row">
+                      <button class="button but1">Data science</button>
+                      <button class="button but1">Vision Computing</button>
+                      </div>
+                  </div>
+              </div>
+            </div>
+            <hr>
+            <div class="container">
+              <div class="row">
+                <div class="col text-center">
+                  <img src="./assests/images/RP 29Mar2018.jpg" class="img">
+                </div>
+                <div class="marg1 col">
+                    <h2>Dr K Ramaprasada Raju</h2>
+                    <p>Professor</p>
+                    <p>EMAIL: dr.vcs@srkrec.ac.in</p>
+                    <p>Cabin: {C 101}</p>
+                    <a href="https://sites.google.com/view/krraju/home/about-me?authuser=0"><button class="button button1">Profile</button></a>&nbsp;&nbsp;&nbsp;
+                      <a href="https://www.google.com/url?q=https%3A%2F%2Fsites.google.com%2Fview%2Fkrraju%2F&sa=D&sntz=1&usg=AOvVaw2QdN9bp0ok1Exgroye_8bx"><button class="button button1">Site</button></a>
+                </div>
+                <div class="col">
+                    <button class="button but1">Artificial intelligence and machine learning</button>
+                    <div class="d-flex flex-row">
+                    <button class="button but1">Data science</button>
+                    <button class="button but1">Vision Computing</button>
+                    </div>
+                </div>
+            </div>
+          </div>
+            <hr>
+            <div class="container">
+              <div class="row">
+                <div class="col text-center">
+                  <img src="./assests/images/2,C107.jpg" class="img">
+                  </div>
+                  <div class="marg1 col">
+                      <h2>Dr. M S V S BHADRI RAJU</h2>
+                      <p>Professor</p>
+                      <p>EMAIL: dr.vcs@srkrec.ac.in</p>
+                      <p>Cabin: {C 107}</p>
+                      <a href="https://sites.google.com/view/msramaraju/profile?authuser=0"><button class="button button1">Profile</button></a>&nbsp;&nbsp;&nbsp;
+                      <a href="https://www.google.com/url?q=https%3A%2F%2Fsites.google.com%2Fview%2Fmsramaraju%2F&sa=D&sntz=1&usg=AOvVaw0efms9sVQ-szoCIkl1V7fV"><button class="button button1">Site</button></a>
+                </div>
+                <div class="col">
+                    <button class="button but1">Artificial intelligence and machine learning</button>
+                    <div class="d-flex flex-row">
+                    <button class="button but1">Data science</button>
+                    <button class="button but1">Vision Computing</button>
+                    </div>
+                </div>
+            </div>
+          </div>
+            <hr>
+            <div class="container">
+              <div class="row">
+                <div class="col text-center">
+                  <img src="./assests/images/3,C106.jpg" class="img">
+                  </div>
+                  <div class="marg1 col">
+                      <h2>Dr K V KRISHNAM RAJU</h2>
+                      <p>Professor</p>
+                      <p>EMAIL: dr.vcs@srkrec.ac.in</p>
+                      <p>Cabin: {C 106}</p>
+                      <a href="https://docs.google.com/document/d/1cJm3_fYxEgjzY9VFBMNHI8hcPKAy5IMm/edit?usp=share_link&ouid=110424998939767495347&rtpof=true&sd=true"><button class="button button1">Profile</button></a>&nbsp;&nbsp;&nbsp;
+                      <a href="https://www.google.com/url?q=https%3A%2F%2Fsites.google.com%2Fview%2Fsrkrkvk&sa=D&sntz=1&usg=AOvVaw09SxPpUUlXO_24wBuRGW8n"><button class="button button1">Site</button></a>
+                </div>
+                <div class="col">
+                    <button class="button but1">Artificial intelligence and machine learning</button>
+                    <div class="d-flex flex-row">
+                    <button class="button but1">Data science</button>
+                    <button class="button but1">Vision Computing</button>
+                    </div>
+                </div>
+            </div>
+          </div>
+          <hr>
+          <div class="container">
+            <div class="row">
+              <div class="col text-center">
+                <img src="./assests/images/4,C206.jpg" class="img">
+                </div>
+                <div class="marg1 col">
+                    <h2>Dr G Mahesh</h2>
+                    <p>Professor</p>
+                    <p>EMAIL: dr.vcs@srkrec.ac.in</p>
+                    <p>Cabin: {C 206}</p>
+                    <a href="https://drive.google.com/file/d/1e9XCPgn8dm5HaxVeDmDRbfaCybNTNDn2/view?usp=sharing"><button class="button button1">Profile</button></a>&nbsp;&nbsp;&nbsp;
+                    <a href="https://www.google.com/url?q=https%3A%2F%2Fsites.google.com%2Fview%2Fcsemahesh&sa=D&sntz=1&usg=AOvVaw3l503sajdg-RqIUSbQNcj6"><button class="button button1">Site</button></a>
+              </div>
+              <div class="col">
+                  <button class="button but1">Artificial intelligence and machine learning</button>
+                  <div class="d-flex flex-row">
+                  <button class="button but1">Data science</button>
+                  <button class="button but1">Vision Computing</button>
+                  </div>
+              </div>
+          </div>
+        </div>
+        <hr>
+        <div class="container">
+          <div class="row">
+            <div class="col text-center">
+              <img src="./assests/images/3,C106.jpg" class="img">
+              </div>
+              <div class="marg1 col">
+                  <h2>Dr P Ravi Kiran Varma</h2>
+                  <p>Professor</p>
+                  <p>EMAIL: dr.vcs@srkrec.ac.in</p>
+                  <p>Cabin: {C 106}</p>
+                  <a href="#"><button class="button button1">Profile</button></a>&nbsp;&nbsp;&nbsp;
+                  <a href="#"><button class="button button1">Site</button></a>
+            </div>
+            <div class="col">
+                <button class="button but1">Artificial intelligence and machine learning</button>
+                <div class="d-flex flex-row">
+                <button class="button but1">Data science</button>
+                <button class="button but1">Vision Computing</button>
+                </div>
+            </div>
+        </div>
+      </div><br>
+        </div>
+        <div class="down-container div2">
+          <h1 class="heading" style="text-align: center;">Assoc Professors</h1>
+          <hr>
+          <div class="container">
+              <div class="row">
+                <div class="col text-center">
+                  <img src="./assests/images/6,C109a.jpg" class="img">
+                </div>
+                <div class="marg1 col">
+                    <h2>Dr N K Kameswara Rao</h2>
+                    <p>Associative Professor</p>
+                    <p>Cabin: {C 109A}</p>
+                    <a href="https://sites.google.com/view/nkkamesh/profile?authuser=0"><button class="button button1">Profile</button></a>&nbsp;&nbsp;&nbsp;
+                    <a href="https://sites.google.com/view/nkkamesh"><button class="button button1">Site</button></a>
+
+                </div>
+                <div class="col">
+                    <button class="button but1">Artificial intelligence and machine learning</button>
+                    <div class="d-flex flex-row">
+                    <button class="button but1">Data science</button>
+                    <button class="button but1">Vision Computing</button>
+                    </div>
+                </div>
+            </div>
+          </div>
+          <hr>
+          <div class="container">
+            <div class="row">
+              <div class="col text-center">
+                <img src="./assests/images/7,C206.JPG" class="img">
+                </div>
+                <div class="marg1 col">
+                    <h2>Dr R N V Jagan Mohan</h2>
+                    <p>Associative Professor</p>
+                    <p>Cabin: {C 206}</p>
+                    <a href="https://srkrec.edu.in/profiles/files/CSE/1072.pdf"><button class="button button1">Profile</button></a>&nbsp;&nbsp;&nbsp;
+                    <a href="#"><button class="button button1">Site</button></a>
+              </div>
+              <div class="col">
+                  <button class="button but1">Artificial intelligence and machine learning</button>
+                  <div class="d-flex flex-row">
+                  <button class="button but1">Data science</button>
+                  <button class="button but1">Vision Computing</button>
+                  </div>
+              </div>
+          </div>
+        </div>
+          <hr>
+          <div class="container">
+            <div class="row">
+              <div class="col text-center">
+                <img src="./assests/images/8,C102.JPG" class="img">
+              </div>
+              <div class="marg1 col">
+                  <h2>Dr G N V G Sirisha</h2>
+                  <p>Associative Professor</p>
+                  <p>Cabin: {C 102}</p>
+                  <a href="https://srkrec.edu.in/profiles/files/CSE/375.pdf"><button class="button button1">Profile</button></a>&nbsp;&nbsp;&nbsp;
+                  <a href="https://www.google.com/url?q=https%3A%2F%2Fsites.google.com%2Fview%2Fdr-sirisha-gadiraju&sa=D&sntz=1&usg=AOvVaw1yR5SQA3DWX3ZkgTCcCC49"><button class="button button1">Site</button></a>
+
+              </div>
+              <div class="col">
+                  <button class="button but1">Artificial intelligence and machine learning</button>
+                  <div class="d-flex flex-row">
+                  <button class="button but1">Data science</button>
+                  <button class="button but1">Vision Computing</button>
+                  </div>
+              </div>
+          </div>
+        </div>
+        <hr>
+        <div class="container">
+          <div class="row">
+            <div class="col text-center">
+              <img src="./assests/images/21,C110.jpg" class="img">
+            </div>
+            <div class="marg1 col">
+                <h2>Dr P Bharat Siva Varma</h2>
+                <p>Associative Professor</p>
+                <p>Cabin: {C 110}</p>
+                <a href="https://srkrec.edu.in/profiles/files/CSE/580.pdf"><button class="button button1">Profile</button></a>&nbsp;&nbsp;&nbsp;
+                <a href="https://sites.google.com/view/pbsvarma/home?authuser=0"><button class="button button1">Site</button></a>
+
+            </div>
+            <div class="col">
+                <button class="button but1">Artificial intelligence and machine learning</button>
+                <div class="d-flex flex-row">
+                <button class="button but1">Data science</button>
+                <button class="button but1">Vision Computing</button>
+                </div>
+            </div>
+        </div>
+      </div>
+      <hr>
+      <div class="container">
+        <div class="row">
+          <div class="col text-center">
+            <img src="./assests/images/29,C203.jpg" class="img">
+          </div>
+          <div class="marg1 col">
+              <h2>Dr M Srihari Varma</h2>
+              <p>Associative Professor</p>
+              <p>Cabin: {C 203}</p>
+              <a href="https://srkrec.edu.in/profiles/files/CSE/610.pdf"><button class="button button1">Profile</button></a>&nbsp;&nbsp;&nbsp;
+              <a href="https://www.google.com/url?q=https%3A%2F%2Fsites.google.com%2Fview%2Fdrmshv%2F&sa=D&sntz=1&usg=AOvVaw2lm1g28JriiZX0yOwZM3h9"><button class="button button1">Site</button></a>
+
+          </div>
+          <div class="col">
+              <button class="button but1">Artificial intelligence and machine learning</button>
+              <div class="d-flex flex-row">
+              <button class="button but1">Data science</button>
+              <button class="button but1">Vision Computing</button>
+              </div>
+          </div>
+      </div>
+    </div>
+    <hr>
+    <div class="container">
+      <div class="row">
+        <div class="col text-center">
+          <img src="./assests/images/18,C303.JPG" class="img">
+        </div>
+        <div class="marg1 col">
+            <h2>Dr VMNSSVKR Gupta</h2>
+            <p>Associative Professor</p>
+            <p>Cabin: {C 303}</p>
+            <a href="https://sites.google.com/site/srkrgupta/"><button class="button button1">Profile</button></a>&nbsp;&nbsp;&nbsp;
+            <a href="https://srkrec.edu.in/profiles/files/CSE/538.pdf"><button class="button button1">Site</button></a>
+
+        </div>
+        <div class="col">
+            <button class="button but1">Artificial intelligence and machine learning</button>
+            <div class="d-flex flex-row">
+            <button class="button but1">Data science</button>
+            <button class="button but1">Vision Computing</button>
+            </div>
+        </div>
+    </div>
+  </div><br>
+      </div>
+      <div class="down-container div3">
+        <h1 class="heading" style="text-align: center;">Asst Professors</h1>
+        <hr>
+        <div class="container">
+            <div class="row">
+              <div class="col text-center">
+                <img src="./assests/images/10,C303.JPG" class="img">
+              </div>
+              <div class="marg1 col">
+                  <h2>D Ravi Babu</h2>
+                  <p>Assistant Professor</p>
+                  <p>Cabin: {C 303}</p>
+                  <a href="https://srkrec.edu.in/profiles/files/CSE/374.pdf"><button class="button button1">Profile</button></a>&nbsp;&nbsp;&nbsp;
+                  <a href="https://www.google.com/url?q=https%3A%2F%2Fsites.google.com%2Fview%2Fdrbabu&sa=D&sntz=1&usg=AOvVaw0AggN8f0LschqgxRtF4B64"><button class="button button1">Site</button></a>
+
+              </div>
+              <div class="col">
+                  <button class="button but1">Artificial intelligence and machine learning</button>
+                  <div class="d-flex flex-row">
+                  <button class="button but1">Data science</button>
+                  <button class="button but1">Vision Computing</button>
+                  </div>
+              </div>
+          </div>
+        </div>
+        <hr>
+        <div class="container">
+          <div class="row">
+            <div class="col text-center">
+              <img src="./assests/images/11,C110.JPG" class="img">
+              </div>
+              <div class="marg1 col">
+                  <h2>K R Sitarama Raju</h2>
+                  <p>Assistant Professor</p>
+                  <p>Cabin: {C 110}</p>
+                  <a href="https://srkrec.edu.in/profiles/files/CSE/345.pdf"><button class="button button1">Profile</button></a>&nbsp;&nbsp;&nbsp;
+                  <a href="https://www.google.com/url?q=https%3A%2F%2Fsites.google.com%2Fview%2Fkrsramaraju%2F&sa=D&sntz=1&usg=AOvVaw27id_heuoSCQHarLGyP13N"><button class="button button1">Site</button></a>
+            </div>
+            <div class="col">
+                <button class="button but1">Artificial intelligence and machine learning</button>
+                <div class="d-flex flex-row">
+                <button class="button but1">Data science</button>
+                <button class="button but1">Vision Computing</button>
+                </div>
+            </div>
+        </div>
+      </div>
+        <hr>
+        <div class="container">
+          <div class="row">
+            <div class="col text-center">
+              <img src="./assests/images/12,C101.JPG" class="img">
+            </div>
+            <div class="marg1 col">
+                <h2>V Priyadarshini</h2>
+                <p>Assistant Professor</p>
+                <p>Cabin: {C 101}</p>
+                <a href="https://srkrec.edu.in/profiles/files/CSE/437.pdf"><button class="button button1">Profile</button></a>&nbsp;&nbsp;&nbsp;
+                <a href="https://www.google.com/url?q=https%3A%2F%2Fsites.google.com%2Fsite%2Fpriyavoosala%2F&sa=D&sntz=1&usg=AOvVaw3UBGj1cqQpMgQbV40JCuJ7"><button class="button button1">Site</button></a>
+
+            </div>
+            <div class="col">
+                <button class="button but1">Artificial intelligence and machine learning</button>
+                <div class="d-flex flex-row">
+                <button class="button but1">Data science</button>
+                <button class="button but1">Vision Computing</button>
+                </div>
+            </div>
+        </div>
+      </div>
+      <hr>
+      <div class="container">
+        <div class="row">
+          <div class="col text-center">
+            <img src="./assests/images/13,C206.JPG" class="img">
+          </div>
+          <div class="marg1 col">
+              <h2>J Rajanikanth</h2>
+              <p>Assistant Professor</p>
+              <p>Cabin: {C 206}</p>
+              <a href="https://srkrec.edu.in/profiles/files/CSE/452.pdf"><button class="button button1">Profile</button></a>&nbsp;&nbsp;&nbsp;
+              <a href="https://www.google.com/url?q=https%3A%2F%2Fsites.google.com%2Fview%2Fjrksrkr&sa=D&sntz=1&usg=AOvVaw3xIvv3Nc22ILHKCo4sQtnu"><button class="button button1">Site</button></a>
+
+          </div>
+          <div class="col">
+              <button class="button but1">Artificial intelligence and machine learning</button>
+              <div class="d-flex flex-row">
+              <button class="button but1">Data science</button>
+              <button class="button but1">Vision Computing</button>
+              </div>
+          </div>
+      </div>
+    </div>
+    <hr>
+    <div class="container">
+      <div class="row">
+        <div class="col text-center">
+          <img src="./assests/images/14,C101.jpg" class="img">
+        </div>
+        <div class="marg1 col">
+            <h2>P Neelima</h2>
+            <p>Assistant Professor</p>
+            <p>Cabin: {C 101}</p>
+            <a href="https://srkrec.edu.in/profiles/files/CSE/482.pdf"><button class="button button1">Profile</button></a>&nbsp;&nbsp;&nbsp;
+            <a href="https://www.google.com/url?q=https%3A%2F%2Fsites.google.com%2Fsite%2Fsrkrneelima%2F&sa=D&sntz=1&usg=AOvVaw3Hu71oZbCJXXo-8UaZKGof"><button class="button button1">Site</button></a>
+        </div>
+        <div class="col">
+            <button class="button but1">Artificial intelligence and machine learning</button>
+            <div class="d-flex flex-row">
+            <button class="button but1">Data science</button>
+            <button class="button but1">Vision Computing</button>
+            </div>
+        </div>
+    </div>
+  </div>
+  <hr>
+  <div class="container">
+    <div class="row">
+      <div class="col text-center">
+        <img src="./assests/images/15,C102.png" class="img">
+      </div>
+      <div class="marg1 col">
+          <h2>Dr K Aruna Kumari</h2>
+          <p>Assistant Professor</p>
+          <p>Cabin: {C 102}</p>
+          <a href="https://srkrec.edu.in/profiles/files/CSE/499.pdf"><button class="button button1">Profile</button></a>&nbsp;&nbsp;&nbsp;
+          <a href="https://www.google.com/url?q=https%3A%2F%2Fsites.google.com%2Fview%2Fkarunakumari&sa=D&sntz=1&usg=AOvVaw2t700-2DLbjiQGfL3ehqq3"><button class="button button1">Site</button></a>
+
+      </div>
+      <div class="col">
+          <button class="button but1">Artificial intelligence and machine learning</button>
+          <div class="d-flex flex-row">
+          <button class="button but1">Data science</button>
+          <button class="button but1">Vision Computing</button>
+          </div>
+      </div>
+  </div>
+</div>
+<hr>
+<div class="container">
+  <div class="row">
+    <div class="col text-center">
+      <img src="./assests/images/16,C303.JPG" class="img">
+    </div>
+    <div class="marg1 col">
+        <h2>KVSSR Murthy</h2>
+        <p>Assistant Professor</p>
+        <p>Cabin: {C 303}</p>
+        <a href="https://srkrec.edu.in/profiles/files/CSE/524.pdf"><button class="button button1">Profile</button></a>&nbsp;&nbsp;&nbsp;
+        <a href="#"><button class="button button1">Site</button></a>
+
+    </div>
+    <div class="col">
+        <button class="button but1">Artificial intelligence and machine learning</button>
+        <div class="d-flex flex-row">
+        <button class="button but1">Data science</button>
+        <button class="button but1">Vision Computing</button>
+        </div>
+    </div>
+</div>
+</div>
+<hr>
+<div class="container">
+  <div class="row">
+    <div class="col text-center">
+      <img src="./assests/images/17,C206.jpg" class="img">
+    </div>
+    <div class="marg1 col">
+        <h2>V V Siva Rama Raju</h2>
+        <p>Assistant Professor</p>
+        <p>Cabin: {C 206}</p>
+        <a href="https://srkrec.edu.in/profiles/files/CSE/523.pdf"><button class="button button1">Profile</button></a>&nbsp;&nbsp;&nbsp;
+        <a href="https://www.google.com/url?q=https%3A%2F%2Fsites.google.com%2Fsite%2Fsrkrvvs%2F&sa=D&sntz=1&usg=AOvVaw0nBWveWDMArGixuXaf2wI6"><button class="button button1">Site</button></a>
+
+    </div>
+    <div class="col">
+        <button class="button but1">Artificial intelligence and machine learning</button>
+        <div class="d-flex flex-row">
+        <button class="button but1">Data science</button>
+        <button class="button but1">Vision Computing</button>
+        </div>
+    </div>
+</div>
+</div>
+<hr>
+<div class="container">
+  <div class="row">
+    <div class="col text-center">
+      <img src="./assests/images/19,c206.JPG" class="img">
+    </div>
+    <div class="marg1 col">
+        <h2>R Siva Shankar</h2>
+        <p>Assistant Professor</p>
+        <p>Cabin: {C 206}</p>
+        <a href="https://srkrec.edu.in/profiles/files/CSE/537.pdf"><button class="button button1">Profile</button></a>&nbsp;&nbsp;&nbsp;
+        <a href="https://www.google.com/url?q=https%3A%2F%2Fsites.google.com%2Fview%2Fshivashankarreddy&sa=D&sntz=1&usg=AOvVaw0-uLjX22ehSC2yNhaNdbrP"><button class="button button1">Site</button></a>
+
+    </div>
+    <div class="col">
+        <button class="button but1">Artificial intelligence and machine learning</button>
+        <div class="d-flex flex-row">
+        <button class="button but1">Data science</button>
+        <button class="button but1">Vision Computing</button>
+        </div>
+    </div>
+</div>
+</div>
+<hr>
+<div class="container">
+  <div class="row">
+    <div class="col text-center">
+      <img src="./assests/images/20,C306.JPG" class="img">
+    </div>
+    <div class="marg1 col">
+        <h2>TVKP Prasad</h2>
+        <p>Assistant Professor</p>
+        <p>Cabin: {C 306}</p>
+        <a href="https://srkrec.edu.in/profiles/files/CSE/320.pdf"><button class="button button1">Profile</button></a>&nbsp;&nbsp;&nbsp;
+        <a href="https://www.google.com/url?q=https%3A%2F%2Fsites.google.com%2Fview%2Fvkpprasadtcse&sa=D&sntz=1&usg=AOvVaw3UBpC2UCrTh0YVZtl9SXNE"><button class="button button1">Site</button></a>
+
+    </div>
+    <div class="col">
+        <button class="button but1">Artificial intelligence and machine learning</button>
+        <div class="d-flex flex-row">
+        <button class="button but1">Data science</button>
+        <button class="button but1">Vision Computing</button>
+        </div>
+    </div>
+</div>
+</div>
+<hr>
+<div class="container">
+  <div class="row">
+    <div class="col text-center">
+      <img src="./assests/images/22,B303.jpg" class="img">
+    </div>
+    <div class="marg1 col">
+        <h2>D Hema Latha</h2>
+        <p>Assistant Professor</p>
+        <p>Cabin: {B 303}</p>
+        <a href="https://srkrec.edu.in/profiles/files/CSE/587.pdf"><button class="button button1">Profile</button></a>&nbsp;&nbsp;&nbsp;
+        <a href="https://www.google.com/url?q=https%3A%2F%2Fsites.google.com%2Fsite%2Fhemalathasrkr%2F&sa=D&sntz=1&usg=AOvVaw2jVp_Kh1g4Clj7qeNEAx6n"><button class="button button1">Site</button></a>
+
+    </div>
+    <div class="col">
+        <button class="button but1">Artificial intelligence and machine learning</button>
+        <div class="d-flex flex-row">
+        <button class="button but1">Data science</button>
+        <button class="button but1">Vision Computing</button>
+        </div>
+    </div>
+</div>
+</div>
+<hr>
+<div class="container">
+  <div class="row">
+    <div class="col text-center">
+      <img src="./assests/images/23C203.jpg" class="img">
+    </div>
+    <div class="marg1 col">
+        <h2>BNV Narasimha Raju</h2>
+        <p>Assistant Professor</p>
+        <p>Cabin: {C 203}</p>
+        <a href="https://srkrec.edu.in/profiles/files/CSE/590.pdf"><button class="button button1">Profile</button></a>&nbsp;&nbsp;&nbsp;
+        <a href="https://www.google.com/url?q=https%3A%2F%2Fsites.google.com%2Fview%2Fbnrsrkr%2F&sa=D&sntz=1&usg=AOvVaw3NJkH0881bYG5cw0rfzWOJ"><button class="button button1">Site</button></a>
+
+    </div>
+    <div class="col">
+        <button class="button but1">Artificial intelligence and machine learning</button>
+        <div class="d-flex flex-row">
+        <button class="button but1">Data science</button>
+        <button class="button but1">Vision Computing</button>
+        </div>
+    </div>
+</div>
+</div>
+<hr>
+<div class="container">
+  <div class="row">
+    <div class="col text-center">
+      <img src="./assests/images/25,C306.jpg" class="img">
+    </div>
+    <div class="marg1 col">
+        <h2>V Dilip Kumar</h2>
+        <p>Assistant Professor</p>
+        <p>Cabin: {C 306}</p>
+        <a href="https://srkrec.edu.in/profiles/files/CSE/606.pdf"><button class="button button1">Profile</button></a>&nbsp;&nbsp;&nbsp;
+        <a href="https://www.google.com/url?q=https%3A%2F%2Fsites.google.com%2Fview%2Fsrkrcsedilip&sa=D&sntz=1&usg=AOvVaw208fGkuc5oH9_Qo1023iSz"><button class="button button1">Site</button></a>
+
+    </div>
+    <div class="col">
+        <button class="button but1">Artificial intelligence and machine learning</button>
+        <div class="d-flex flex-row">
+        <button class="button but1">Data science</button>
+        <button class="button but1">Vision Computing</button>
+        </div>
+    </div>
+</div>
+</div>
+<hr>
+<div class="container">
+  <div class="row">
+    <div class="col text-center">
+      <img src="./assests/images/IMG-20221203-WA0004 (2).jpg" class="img">
+    </div>
+    <div class="marg1 col">
+        <h2>M Jeevana Sujitha</h2>
+        <p>Assistant Professor</p>
+        <p>Cabin: {C 101}</p>
+        <a href="https://srkrec.edu.in/profiles/files/CSE/607.pdf"><button class="button button1">Profile</button></a>&nbsp;&nbsp;&nbsp;
+        <a href="https://www.google.com/url?q=https%3A%2F%2Fsites.google.com%2Fsite%2Fjeevanasrkr%2F&sa=D&sntz=1&usg=AOvVaw1GRsJWLQgan-c6TykbBGQZ"><button class="button button1">Site</button></a>
+
+    </div>
+    <div class="col">
+        <button class="button but1">Artificial intelligence and machine learning</button>
+        <div class="d-flex flex-row">
+        <button class="button but1">Data science</button>
+        <button class="button but1">Vision Computing</button>
+        </div>
+    </div>
+</div>
+</div>
+<hr>
+<div class="container">
+  <div class="row">
+    <div class="col text-center">
+      <img src="./assests/images/28,B303.JPG" class="img">
+    </div>
+    <div class="marg1 col">
+        <h2>A L Lavanya</h2>
+        <p>Assistant Professor</p>
+        <p>Cabin: {B 303}</p>
+        <a href="https://srkrec.edu.in/profiles/files/CSE/609.pdf"><button class="button button1">Profile</button></a>&nbsp;&nbsp;&nbsp;
+        <a href="https://www.google.com/url?q=https%3A%2F%2Fsites.google.com%2Fview%2Flavanyaalluri&sa=D&sntz=1&usg=AOvVaw3i9VLo5VrgDiCcpEdLiw-g"><button class="button button1">Site</button></a>
+
+    </div>
+    <div class="col">
+        <button class="button but1">Artificial intelligence and machine learning</button>
+        <div class="d-flex flex-row">
+        <button class="button but1">Data science</button>
+        <button class="button but1">Vision Computing</button>
+        </div>
+    </div>
+</div>
+</div>
+<hr>
+<div class="container">
+  <div class="row">
+    <div class="col text-center">
+      <img src="./assests/images/30C306.JPG" class="img">
+    </div>
+    <div class="marg1 col">
+        <h2>P Udaya Raju</h2>
+        <p>Assistant Professor</p>
+        <p>Cabin: {B 306}</p>
+        <a href="https://srkrec.edu.in/profiles/files/CSE/634.pdf"><button class="button button1">Profile</button></a>&nbsp;&nbsp;&nbsp;
+        <a href="https://www.google.com/url?q=https%3A%2F%2Fsites.google.com%2Fsite%2Fpudayaraju8910&sa=D&sntz=1&usg=AOvVaw0Zt-KoOW0HiKQCu6reApT_"><button class="button button1">Site</button></a>
+
+    </div>
+    <div class="col">
+        <button class="button but1">Artificial intelligence and machine learning</button>
+        <div class="d-flex flex-row">
+        <button class="button but1">Data science</button>
+        <button class="button but1">Vision Computing</button>
+        </div>
+    </div>
+</div>
+</div>
+<hr>
+<div class="container">
+  <div class="row">
+    <div class="col text-center">
+      <img src="./assests/images/32,C306.JPG" class="img">
+    </div>
+    <div class="marg1 col">
+        <h2>T Srinivasa Rao</h2>
+        <p>Assistant Professor</p>
+        <p>Cabin: {C 306}</p>
+        <a href="https://srkrec.edu.in/profiles/files/CSE/632.pdf"><button class="button button1">Profile</button></a>&nbsp;&nbsp;&nbsp;
+        <a href="https://www.google.com/url?q=https%3A%2F%2Fsites.google.com%2Fsite%2Fsrkrtsr%2F&sa=D&sntz=1&usg=AOvVaw11g8HGZCKQEFezs6GUOvlu"><button class="button button1">Site</button></a>
+
+    </div>
+    <div class="col">
+        <button class="button but1">Artificial intelligence and machine learning</button>
+        <div class="d-flex flex-row">
+        <button class="button but1">Data science</button>
+        <button class="button but1">Vision Computing</button>
+        </div>
+    </div>
+</div>
+</div>
+<hr>
+<div class="container">
+  <div class="row">
+    <div class="col text-center">
+      <img src="./assests/images/33,C203.JPG" class="img">
+    </div>
+    <div class="marg1 col">
+        <h2>S Suryanarayana Raju</h2>
+        <p>Assistant Professor</p>
+        <p>Cabin: {C 203}</p>
+        <a href="https://srkrec.edu.in/profiles/files/CSE/676.pdf"><button class="button button1">Profile</button></a>&nbsp;&nbsp;&nbsp;
+        <a href="https://www.google.com/url?q=https%3A%2F%2Fsites.google.com%2Fview%2Fssnr&sa=D&sntz=1&usg=AOvVaw3Wq6SYnBmcutDDNmKoULXM"><button class="button button1">Site</button></a>
+
+    </div>
+    <div class="col">
+        <button class="button but1">Artificial intelligence and machine learning</button>
+        <div class="d-flex flex-row">
+        <button class="button but1">Data science</button>
+        <button class="button but1">Vision Computing</button>
+        </div>
+    </div>
+</div>
+</div>
+<hr>
+<div class="container">
+  <div class="row">
+    <div class="col text-center">
+      <img src="./assests/images/34,C303.JPG" class="img">
+    </div>
+    <div class="marg1 col">
+        <h2>Ch Vinod Varma</h2>
+        <p>Assistant Professor</p>
+        <p>Cabin: {C 303}</p>
+        <a href="https://srkrec.edu.in/profiles/files/CSE/818.pdf"><button class="button button1">Profile</button></a>&nbsp;&nbsp;&nbsp;
+        <a href="https://www.google.com/url?q=https%3A%2F%2Fsites.google.com%2Fview%2Fchvvarma&sa=D&sntz=1&usg=AOvVaw3CF-nUTrxqbYtH2t_W5Abb"><button class="button button1">Site</button></a>
+
+    </div>
+    <div class="col">
+        <button class="button but1">Artificial intelligence and machine learning</button>
+        <div class="d-flex flex-row">
+        <button class="button but1">Data science</button>
+        <button class="button but1">Vision Computing</button>
+        </div>
+    </div>
+</div>
+</div>
+<hr>
+<div class="container">
+  <div class="row">
+    <div class="col text-center">
+      <img src="./assests/images/35,C109a.JPG" class="img">
+    </div>
+    <div class="marg1 col">
+        <h2>L V Srinivas</h2>
+        <p>Assistant Professor</p>
+        <p>Cabin: {C 109A}</p>
+        <a href="https://srkrec.edu.in/profiles/files/CSE/966.pdf"><button class="button button1">Profile</button></a>&nbsp;&nbsp;&nbsp;
+        <a href="https://www.google.com/url?q=https%3A%2F%2Fsites.google.com%2Fview%2Flvsrinivas&sa=D&sntz=1&usg=AOvVaw3vY7rmQxlp2NkCNMXdRneQ"><button class="button button1">Site</button></a>
+
+    </div>
+    <div class="col">
+        <button class="button but1">Artificial intelligence and machine learning</button>
+        <div class="d-flex flex-row">
+        <button class="button but1">Data science</button>
+        <button class="button but1">Vision Computing</button>
+        </div>
+    </div>
+</div>
+</div>
+<hr>
+<div class="container">
+  <div class="row">
+    <div class="col text-center">
+      <img src="./assests/images/36,B303.JPG" class="img">
+    </div>
+    <div class="marg1 col">
+        <h2>V Anjani Kranthi</h2>
+        <p>Assistant Professor</p>
+        <p>Cabin: {B 303}</p>
+        <a href="https://srkrec.edu.in/profiles/files/CSE/952.pdf"><button class="button button1">Profile</button></a>&nbsp;&nbsp;&nbsp;
+        <a href="https://www.google.com/url?q=https%3A%2F%2Fsites.google.com%2Fview%2Fanjanikranthi&sa=D&sntz=1&usg=AOvVaw0SgoDAvtlssppGylZX2ggX"><button class="button button1">Site</button></a>
+
+    </div>
+    <div class="col">
+        <button class="button but1">Artificial intelligence and machine learning</button>
+        <div class="d-flex flex-row">
+        <button class="button but1">Data science</button>
+        <button class="button but1">Vision Computing</button>
+        </div>
+    </div>
+</div>
+</div>
+<hr>
+<div class="container">
+  <div class="row">
+    <div class="col text-center">
+      <img src="./assests/images/37,B303.jpg" class="img">
+    </div>
+    <div class="marg1 col">
+        <h2>M Janaki Devi</h2>
+        <p>Associative Professor</p>
+        <p>Cabin: {B 303}</p>
+        <a href="#"><button class="button button1">Profile</button></a>&nbsp;&nbsp;&nbsp;
+        <a href="https://www.google.com/url?q=https%3A%2F%2Fsites.google.com%2Fview%2Fmaddala-janakidevi&sa=D&sntz=1&usg=AOvVaw1dMKhjxtmofR461QqQQ-Wd"><button class="button button1">Site</button></a>
+
+    </div>
+    <div class="col">
+        <button class="button but1">Artificial intelligence and machine learning</button>
+        <div class="d-flex flex-row">
+        <button class="button but1">Data science</button>
+        <button class="button but1">Vision Computing</button>
+        </div>
+    </div>
+</div>
+</div>
+<hr>
+<div class="container">
+  <div class="row">
+    <div class="col text-center">
+      <img src="./assests/images/38,C203.jpg" class="img">
+    </div>
+    <div class="marg1 col">
+        <h2>Ch Rami Naidu</h2>
+        <p>Assistant Professor</p>
+        <p>Cabin: {C 203}</p>
+        <a href="https://srkrec.edu.in/profiles/files/CSE/978.pdf"><button class="button button1">Profile</button></a>&nbsp;&nbsp;&nbsp;
+        <a href="https://www.google.com/url?q=https%3A%2F%2Fsites.google.com%2Fview%2Framinaidu-chitri&sa=D&sntz=1&usg=AOvVaw1Oplv0Kxvj5Z-YLd9rJk8U"><button class="button button1">Site</button></a>
+
+    </div>
+    <div class="col">
+        <button class="button but1">Artificial intelligence and machine learning</button>
+        <div class="d-flex flex-row">
+        <button class="button but1">Data science</button>
+        <button class="button but1">Vision Computing</button>
+        </div>
+    </div>
+</div>
+</div>
+<hr>
+<div class="container">
+  <div class="row">
+    <div class="col text-center">
+      <img src="./assests/images/39,B303.jpg" class="img">
+    </div>
+    <div class="marg1 col">
+        <h2>P Saroja</h2>
+        <p>Assistant Professor</p>
+        <p>Cabin: {B 303}</p>
+        <a href="https://srkrec.edu.in/profiles/files/CSE/1052.pdf"><button class="button button1">Profile</button></a>&nbsp;&nbsp;&nbsp;
+        <a href="https://www.google.com/url?q=https%3A%2F%2Fsites.google.com%2Fview%2Fmantenasaroja%2F&sa=D&sntz=1&usg=AOvVaw0PtedQ6maGUg9UJfJbt_9z"><button class="button button1">Site</button></a>
+
+    </div>
+    <div class="col">
+        <button class="button but1">Artificial intelligence and machine learning</button>
+        <div class="d-flex flex-row">
+        <button class="button but1">Data science</button>
+        <button class="button but1">Vision Computing</button>
+        </div>
+    </div>
+</div>
+</div>
+<hr>
+<div class="container">
+  <div class="row">
+    <div class="col text-center">
+      <img src="./assests/images/40,C406.jpg" class="img">
+    </div>
+    <div class="marg1 col">
+        <h2>K V N Valli</h2>
+        <p>Assistant Professor</p>
+        <p>Cabin: {C 406}</p>
+        <a href="https://srkrec.edu.in/profiles/files/CSE/1153.pdf"><button class="button button1">Profile</button></a>&nbsp;&nbsp;&nbsp;
+        <a href="https://www.google.com/url?q=https%3A%2F%2Fsites.google.com%2Fview%2Fkvnvalli&sa=D&sntz=1&usg=AOvVaw09ZyfcNe8MbzJamdFYAFMa"><button class="button button1">Site</button></a>
+
+    </div>
+    <div class="col">
+        <button class="button but1">Artificial intelligence and machine learning</button>
+        <div class="d-flex flex-row">
+        <button class="button but1">Data science</button>
+        <button class="button but1">Vision Computing</button>
+        </div>
+    </div>
+</div>
+</div>
+<hr>
+<div class="container">
+  <div class="row">
+    <div class="col text-center">
+      <img src="./assests/images/41,C206.jpg" class="img">
+    </div>
+    <div class="marg1 col">
+        <h2>P Jahnavi</h2>
+        <p>Assistant Professor</p>
+        <p>Cabin: {C 406}</p>
+        <a href="https://srkrec.edu.in/profiles/files/CSE/1151.pdf"><button class="button button1">Profile</button></a>&nbsp;&nbsp;&nbsp;
+        <a href="https://www.google.com/url?q=https%3A%2F%2Fsites.google.com%2Fview%2Fpenmetsajahnavi&sa=D&sntz=1&usg=AOvVaw0rz5nWZM2OM74fUmgpsarw"><button class="button button1">Site</button></a>
+
+    </div>
+    <div class="col">
+        <button class="button but1">Artificial intelligence and machine learning</button>
+        <div class="d-flex flex-row">
+        <button class="button but1">Data science</button>
+        <button class="button but1">Vision Computing</button>
+        </div>
+    </div>
+</div>
+</div>
+<hr>
+<div class="container">
+  <div class="row">
+    <div class="col text-center">
+      <img src="./assests/images/42,C406.JPG" class="img">
+    </div>
+    <div class="marg1 col">
+        <h2>B Mounika</h2>
+        <p>Assistant Professor</p>
+        <p>Cabin: {C 406}</p>
+        <a href="https://srkrec.edu.in/profiles/files/CSE/1152.pdf"><button class="button button1">Profile</button></a>&nbsp;&nbsp;&nbsp;
+        <a href="https://www.google.com/url?q=https%3A%2F%2Fsites.google.com%2Fview%2Fbmounika&sa=D&sntz=1&usg=AOvVaw3UOJluGxvdWjhsE215Jqjr"><button class="button button1">Site</button></a>
+
+    </div>
+    <div class="col">
+        <button class="button but1">Artificial intelligence and machine learning</button>
+        <div class="d-flex flex-row">
+        <button class="button but1">Data science</button>
+        <button class="button but1">Vision Computing</button>
+        </div>
+    </div>
+</div>
+</div>
+<hr>
+<div class="container">
+  <div class="row">
+    <div class="col text-center">
+      <img src="./assests/images/43,C406.jpg" class="img">
+    </div>
+    <div class="marg1 col">
+        <h2>D N S B Kavitha</h2>
+        <p>Assistant Professor</p>
+        <p>Cabin: {C 406}</p>
+        <a href="https://srkrec.edu.in/profiles/files/CSE/1155.pdf"><button class="button button1">Profile</button></a>&nbsp;&nbsp;&nbsp;
+        <a href="https://www.google.com/url?q=https%3A%2F%2Fsites.google.com%2Fview%2Fdnsbkavitha&sa=D&sntz=1&usg=AOvVaw0wziVcfN1OvYY63fICJ4eW"><button class="button button1">Site</button></a>
+
+    </div>
+    <div class="col">
+        <button class="button but1">Artificial intelligence and machine learning</button>
+        <div class="d-flex flex-row">
+        <button class="button but1">Data science</button>
+        <button class="button but1">Vision Computing</button>
+        </div>
+    </div>
+</div>
+</div>
+<hr>
+<div class="container">
+  <div class="row">
+    <div class="col text-center">
+      <img src="./assests/images/46,B403.jpg" class="img">
+    </div>
+    <div class="marg1 col">
+        <h2>K D V Pavan Kumar</h2>
+        <p>Assistant Professor</p>
+        <p>Cabin: {B 403}</p>
+        <a href="https://sites.google.com/view/kdvpkvarma/about-me?authuser=0"><button class="button button1">Profile</button></a>&nbsp;&nbsp;&nbsp;
+        <a href="https://www.google.com/url?q=https%3A%2F%2Fsites.google.com%2Fview%2Fkdvpkvarma%2F&sa=D&sntz=1&usg=AOvVaw3MIs1NQq9Vb_5E3O6hQwfx"><button class="button button1">Site</button></a>
+
+    </div>
+    <div class="col">
+        <button class="button but1">Artificial intelligence and machine learning</button>
+        <div class="d-flex flex-row">
+        <button class="button but1">Data science</button>
+        <button class="button but1">Vision Computing</button>
+        </div>
+    </div>
+</div>
+</div>
+<hr>
+<div class="container">
+  <div class="row">
+    <div class="col text-center">
+      <img src="./assests/images/47,B403.JPG" class="img">
+    </div>
+    <div class="marg1 col">
+        <h2>B L V S Rama Krishna</h2>
+        <p>Assistant Professor</p>
+        <p>Cabin: {B 403}</p>
+        <a href="https://srkrec.edu.in/profiles/files/CSE/988.pdf"><button class="button button1">Profile</button></a>&nbsp;&nbsp;&nbsp;
+        <a href="https://www.google.com/url?q=https%3A%2F%2Fsites.google.com%2Fsrkrec.edu.in%2Fblvsrkrishna&sa=D&sntz=1&usg=AOvVaw1zBU8ItJWfYXbTuhPHh6QL"><button class="button button1">Site</button></a>
+
+    </div>
+    <div class="col">
+        <button class="button but1">Artificial intelligence and machine learning</button>
+        <div class="d-flex flex-row">
+        <button class="button but1">Data science</button>
+        <button class="button but1">Vision Computing</button>
+        </div>
+    </div>
+</div>
+</div>
+<hr>
+<div class="container">
+  <div class="row">
+    <div class="col text-center">
+      <img src="./assests/images/48,B404.JPG" class="img">
+    </div>
+    <div class="marg1 col">
+        <h2>K Durga Bhavani</h2>
+        <p>Assistant Professor</p>
+        <p>Cabin: {B 404}</p>
+        <a href="#"><button class="button button1">Profile</button></a>&nbsp;&nbsp;&nbsp;
+        <a href="https://www.google.com/url?q=https%3A%2F%2Fsites.google.com%2Fview%2Fdurgabhavani&sa=D&sntz=1&usg=AOvVaw0NqDRe1esOEBhpNdguk029"><button class="button button1">Site</button></a>
+
+    </div>
+    <div class="col">
+        <button class="button but1">Artificial intelligence and machine learning</button>
+        <div class="d-flex flex-row">
+        <button class="button but1">Data science</button>
+        <button class="button but1">Vision Computing</button>
+        </div>
+    </div>
+</div>
+</div>
+<hr>
+<div class="container">
+  <div class="row">
+    <div class="col text-center">
+      <img src="./assests/images/49,B403.JPG" class="img">
+    </div>
+    <div class="marg1 col">
+        <h2>K Hari Krishna</h2>
+        <p>Assistant Professor</p>
+        <p>Cabin: {B 403}</p>
+        <a href="https://srkrec.edu.in/profiles/files/CSE/1099.pdf"><button class="button button1">Profile</button></a>&nbsp;&nbsp;&nbsp;
+        <a href="https://www.google.com/url?q=https%3A%2F%2Fsites.google.com%2Fview%2Fharikrishnakalidindi%2F&sa=D&sntz=1&usg=AOvVaw3pWrSWJIbSLRxsJoT9sn4V"><button class="button button1">Site</button></a>
+
+    </div>
+    <div class="col">
+        <button class="button but1">Artificial intelligence and machine learning</button>
+        <div class="d-flex flex-row">
+        <button class="button but1">Data science</button>
+        <button class="button but1">Vision Computing</button>
+        </div>
+    </div>
+</div>
+</div>
+<hr>
+<div class="container">
+  <div class="row">
+    <div class="col text-center">
+      <img src="./assests/images/50,B403.jpg" class="img">
+    </div>
+    <div class="marg1 col">
+        <h2>K Gopala Varma</h2>
+        <p>Assistant Professor</p>
+        <p>Cabin: {B 403}</p>
+        <a href="https://srkrec.edu.in/profiles/files/CSE/1174.pdf"><button class="button button1">Profile</button></a>&nbsp;&nbsp;&nbsp;
+        <a href="https://www.google.com/url?q=https%3A%2F%2Fsites.google.com%2Fview%2Fkvgvarma&sa=D&sntz=1&usg=AOvVaw0sXoYeaWxynabU0suSf8bw"><button class="button button1">Site</button></a>
+
+    </div>
+    <div class="col">
+        <button class="button but1">Artificial intelligence and machine learning</button>
+        <div class="d-flex flex-row">
+        <button class="button but1">Data science</button>
+        <button class="button but1">Vision Computing</button>
+        </div>
+    </div>
+</div>
+</div>
+<hr>
+<div class="container">
+  <div class="row">
+    <div class="col text-center">
+      <img src="./assests/images/51,B401.JPG" class="img">
+    </div>
+    <div class="marg1 col">
+        <h2>A Neelima</h2>
+        <p>Assistant Professor</p>
+        <p>Cabin: {B 404}</p>
+        <a href="https://srkrec.edu.in/profiles/files/CSE/1100.pdf"><button class="button button1">Profile</button></a>&nbsp;&nbsp;&nbsp;
+        <a href="https://www.google.com/url?q=https%3A%2F%2Fsites.google.com%2Fview%2Fa-neelima&sa=D&sntz=1&usg=AOvVaw2u03TVah2s1hij_oqZuHzK"><button class="button button1">Site</button></a>
+
+    </div>
+    <div class="col">
+        <button class="button but1">Artificial intelligence and machine learning</button>
+        <div class="d-flex flex-row">
+        <button class="button but1">Data science</button>
+        <button class="button but1">Vision Computing</button>
+        </div>
+    </div>
+</div>
+</div>
+<hr>
+<div class="container">
+  <div class="row">
+    <div class="col text-center">
+      <img src="./assests/images/52,B404.JPG" class="img">
+    </div>
+    <div class="marg1 col">
+        <h2>M S Suseela</h2>
+        <p>Assistant Professor</p>
+        <p>Cabin: {B 404}</p>
+        <a href="#"><button class="button button1">Profile</button></a>&nbsp;&nbsp;&nbsp;
+        <a href="#"><button class="button button1">Site</button></a>
+
+    </div>
+    <div class="col">
+        <button class="button but1">Artificial intelligence and machine learning</button>
+        <div class="d-flex flex-row">
+        <button class="button but1">Data science</button>
+        <button class="button but1">Vision Computing</button>
+        </div>
+    </div>
+</div>
+</div>
+<hr>
+<div class="container">
+  <div class="row">
+    <div class="col text-center">
+      <img src="./assests/images/53,B403.jpg" class="img">
+    </div>
+    <div class="marg1 col">
+        <h2>Ch Raghuram</h2>
+        <p>Assistant Professor</p>
+        <p>Cabin: {B 403}</p>
+        <a href="https://srkrec.edu.in/profiles/files/CSE/1133.pdf"><button class="button button1">Profile</button></a>&nbsp;&nbsp;&nbsp;
+        <a href="https://www.google.com/url?q=https%3A%2F%2Fsites.google.com%2Fview%2Fraghuram-ch&sa=D&sntz=1&usg=AOvVaw2jw2Xv3PF77Eu86mS_z5nH"><button class="button button1">Site</button></a>
+
+    </div>
+    <div class="col">
+        <button class="button but1">Artificial intelligence and machine learning</button>
+        <div class="d-flex flex-row">
+        <button class="button but1">Data science</button>
+        <button class="button but1">Vision Computing</button>
+        </div>
+    </div>
+</div>
+</div>
+<hr>
+<div class="container">
+  <div class="row">
+    <div class="col text-center">
+      <img src="./assests/images/54,B403.JPG" class="img">
+    </div>
+    <div class="marg1 col">
+        <h2>Ch Ravi Swaroop</h2>
+        <p>Assistant Professor</p>
+        <p>Cabin: {B 403}</p>
+        <a href="https://srkrec.edu.in/profiles/files/CSE/1138.pdf"><button class="button button1">Profile</button></a>&nbsp;&nbsp;&nbsp;
+        <a href="https://www.google.com/url?q=https%3A%2F%2Fsites.google.com%2Fview%2Fchigurupatiraviswaroop&sa=D&sntz=1&usg=AOvVaw346d61IwJlmjOCT-_nFFRl"><button class="button button1">Site</button></a>
+
+    </div>
+    <div class="col">
+        <button class="button but1">Artificial intelligence and machine learning</button>
+        <div class="d-flex flex-row">
+        <button class="button but1">Data science</button>
+        <button class="button but1">Vision Computing</button>
+        </div>
+    </div>
+</div>
+</div>
+<hr>
+<div class="container">
+  <div class="row">
+    <div class="col text-center">
+      <img src="./assests/images/55,C303.JPG" class="img">
+    </div>
+    <div class="marg1 col">
+        <h2>D V S R K Raju</h2>
+        <p>Assistant Professor</p>
+        <p>Cabin: {B 303}</p>
+        <a href="https://srkrec.edu.in/profiles/files/CSE/1178.pdf"><button class="button button1">Profile</button></a>&nbsp;&nbsp;&nbsp;
+        <a href="https://www.google.com/url?q=https%3A%2F%2Fsites.google.com%2Fview%2Fvsrkrajudandu&sa=D&sntz=1&usg=AOvVaw2mvl0FN4lT9kDmHRntDwqf"><button class="button button1">Site</button></a>
+
+    </div>
+    <div class="col">
+        <button class="button but1">Artificial intelligence and machine learning</button>
+        <div class="d-flex flex-row">
+        <button class="button but1">Data science</button>
+        <button class="button but1">Vision Computing</button>
+        </div>
+    </div>
+</div>
+</div>
+<hr>
+<div class="container">
+  <div class="row">
+    <div class="col text-center">
+      <img src="./assests/images/56,B404.JPG" class="img">
+    </div>
+    <div class="marg1 col">
+        <h2>Ch Suma</h2>
+        <p>Assistant Professor</p>
+        <p>Cabin: {B 404}</p>
+        <a href="https://srkrec.edu.in/profiles/files/CSE/1191.pdf"><button class="button button1">Profile</button></a>&nbsp;&nbsp;&nbsp;
+        <a href="https://www.google.com/url?q=https%3A%2F%2Fsites.google.com%2Fview%2Fsumach%2F&sa=D&sntz=1&usg=AOvVaw1lUILgCAwvwrVhSOKGaVqx"><button class="button button1">Site</button></a>
+
+    </div>
+    <div class="col">
+        <button class="button but1">Artificial intelligence and machine learning</button>
+        <div class="d-flex flex-row">
+        <button class="button but1">Data science</button>
+        <button class="button but1">Vision Computing</button>
+        </div>
+    </div>
+</div>
+</div>
+<hr>
+<div class="container">
+  <div class="row">
+    <div class="col text-center">
+      <img src="./assests/images/57,B404.jpg" class="img">
+    </div>
+    <div class="marg1 col">
+        <h2>R Leela Jyothi</h2>
+        <p>Assistant Professor</p>
+        <p>Cabin: {B 404}</p>
+        <a href="https://srkrec.edu.in/profiles/files/CSE/1192.pdf"><button class="button button1">Profile</button></a>&nbsp;&nbsp;&nbsp;
+        <a href="https://www.google.com/url?q=https%3A%2F%2Fsites.google.com%2Fview%2Frleela%2Fhome&sa=D&sntz=1&usg=AOvVaw2Z6EUn4Q3i253O1VvH_0i5"><button class="button button1">Site</button></a>
+
+    </div>
+    <div class="col">
+        <button class="button but1">Artificial intelligence and machine learning</button>
+        <div class="d-flex flex-row">
+        <button class="button but1">Data science</button>
+        <button class="button but1">Vision Computing</button>
+        </div>
+    </div>
+</div>
+</div>
+<hr>
+<div class="container">
+  <div class="row">
+    <div class="col text-center">
+      <img src="./assests/images/58,C303.jpg" class="img">
+    </div>
+    <div class="marg1 col">
+        <h2>S Suresh Kumar</h2>
+        <p>Assistant Professor</p>
+        <p>Cabin: {C 303}</p>
+        <a href="https://srkrec.edu.in/profiles/files/CSE/1194.pdf"><button class="button button1">Profile</button></a>&nbsp;&nbsp;&nbsp;
+        <a href="https://www.google.com/url?q=https%3A%2F%2Fsites.google.com%2Fview%2Fsureshkumarsamarla&sa=D&sntz=1&usg=AOvVaw0mZAdLIs_b1Da95Qo8VYct"><button class="button button1">Site</button></a>
+
+    </div>
+    <div class="col">
+        <button class="button but1">Artificial intelligence and machine learning</button>
+        <div class="d-flex flex-row">
+        <button class="button but1">Data science</button>
+        <button class="button but1">Vision Computing</button>
+        </div>
+    </div>
+</div>
+</div>
+<hr>
+<div class="container">
+  <div class="row">
+    <div class="col text-center">
+      <img src="./assests/images/59,C406.JPG" class="img">
+    </div>
+    <div class="marg1 col">
+        <h2>L Divya</h2>
+        <p>Assistant Professor</p>
+        <p>Cabin: {C 406}</p>
+        <a href="https://srkrec.edu.in/profiles/files/CSE/1203.pdf"><button class="button button1">Profile</button></a>&nbsp;&nbsp;&nbsp;
+        <a href="https://www.google.com/url?q=https%3A%2F%2Fsites.google.com%2Fview%2Fdivya-l&sa=D&sntz=1&usg=AOvVaw1CqvZjBs-YdFzn45Yg6fIh"><button class="button button1">Site</button></a>
+
+    </div>
+    <div class="col">
+        <button class="button but1">Artificial intelligence and machine learning</button>
+        <div class="d-flex flex-row">
+        <button class="button but1">Data science</button>
+        <button class="button but1">Vision Computing</button>
+        </div>
+    </div>
+</div>
+</div>
+<hr>
+<div class="container">
+  <div class="row">
+    <div class="col text-center">
+      <img src="./assests/images/61,B403.jpg" class="img">
+    </div>
+    <div class="marg1 col">
+        <h2>K P Sai Rama Krishna</h2>
+        <p>Assistant Professor</p>
+        <p>Cabin: {B 403}</p>
+        <a href="https://srkrec.edu.in/profiles/files/CSE/1304.pdf"><button class="button button1">Profile</button></a>&nbsp;&nbsp;&nbsp;
+        <a href="#"><button class="button button1">Site</button></a>
+
+    </div>
+    <div class="col">
+        <button class="button but1">Artificial intelligence and machine learning</button>
+        <div class="d-flex flex-row">
+        <button class="button but1">Data science</button>
+        <button class="button but1">Vision Computing</button>
+        </div>
+    </div>
+</div>
+</div>
+<hr>
+<div class="container">
+  <div class="row">
+    <div class="col text-center">
+      <img src="./assests/images/63,B404.JPG" class="img">
+    </div>
+    <div class="marg1 col">
+        <h2>G Bhanu Priyanka</h2>
+        <p>Assistant Professor</p>
+        <p>Cabin: {B 404}</p>
+        <a href="#"><button class="button button1">Profile</button></a>&nbsp;&nbsp;&nbsp;
+        <a href="https://www.google.com/url?q=https%3A%2F%2Fsites.google.com%2Fview%2Fg-bhanu-priyanka&sa=D&sntz=1&usg=AOvVaw2doRkkd5O0wB3xrjPSqHcZ"><button class="button button1">Site</button></a>
+
+    </div>
+    <div class="col">
+        <button class="button but1">Artificial intelligence and machine learning</button>
+        <div class="d-flex flex-row">
+        <button class="button but1">Data science</button>
+        <button class="button but1">Vision Computing</button>
+        </div>
+    </div>
+</div>
+</div>
+<hr>
+<div class="container">
+  <div class="row">
+    <div class="col text-center">
+      <img src="./assests/images/64,B404.JPG" class="img">
+    </div>
+    <div class="marg1 col">
+        <h2>L Padma</h2>
+        <p>Assistant Professor</p>
+        <p>Cabin: {B 404}</p>
+        <a href="#"><button class="button button1">Profile</button></a>&nbsp;&nbsp;&nbsp;
+        <a href="https://www.google.com/url?q=https%3A%2F%2Fsites.google.com%2Fview%2Fl-padma&sa=D&sntz=1&usg=AOvVaw3YJ1wHFPaH2c-5WWedv-RZ"><button class="button button1">Site</button></a>
+
+    </div>
+    <div class="col">
+        <button class="button but1">Artificial intelligence and machine learning</button>
+        <div class="d-flex flex-row">
+        <button class="button but1">Data science</button>
+        <button class="button but1">Vision Computing</button>
+        </div>
+    </div>
+</div>
+</div>
+<hr>
+<div class="container">
+  <div class="row">
+    <div class="col text-center">
+      <img src="https://media.istockphoto.com/id/1131164548/vector/avatar-5.jpg?s=612x612&w=0&k=20&c=CK49ShLJwDxE4kiroCR42kimTuuhvuo2FH5y_6aSgEo=" class="img">
+    </div>
+    <div class="marg1 col">
+        <h2>KV Mounika</h2>
+        <p>Assistant Professor</p>
+        <p>Cabin: {B 404}</p>
+        <a href="#"><button class="button button1">Profile</button></a>&nbsp;&nbsp;&nbsp;
+        <a href="#"><button class="button button1">Site</button></a>
+
+    </div>
+    <div class="col">
+        <button class="button but1">Artificial intelligence and machine learning</button>
+        <div class="d-flex flex-row">
+        <button class="button but1">Data science</button>
+        <button class="button but1">Vision Computing</button>
+        </div>
+    </div>
+</div>
+</div>
+<hr>
+<div class="container">
+  <div class="row">
+    <div class="col text-center">
+      <img src="./assests/images/45,B403.jpg" class="img">
+    </div>
+    <div class="marg1 col">
+        <h2>MVS Subramanyam</h2>
+        <p>Assistant Professor</p>
+        <p>Cabin: {B 403}</p>
+        <a href="#"><button class="button button1">Profile</button></a>&nbsp;&nbsp;&nbsp;
+        <a href="#"><button class="button button1">Site</button></a>
+
+    </div>
+    <div class="col">
+        <button class="button but1">Artificial intelligence and machine learning</button>
+        <div class="d-flex flex-row">
+        <button class="button but1">Data science</button>
+        <button class="button but1">Vision Computing</button>
+        </div>
+    </div>
+</div>
+</div>
+<hr>
+<div class="container">
+  <div class="row">
+    <div class="col text-center">
+      <img src="./assests/images/6,C109a.jpg" class="img">
+    </div>
+    <div class="marg1 col">
+        <h2>J V Rama Kumar</h2>
+        <p>Assistant Professor</p>
+        <p>Cabin: {C 109}</p>
+        <a href="#"><button class="button button1">Profile</button></a>&nbsp;&nbsp;&nbsp;
+        <a href="https://www.google.com/url?q=https%3A%2F%2Fsites.google.com%2Fview%2Fjvramakumar&sa=D&sntz=1&usg=AOvVaw0l11vzx0Tmk22_8DYgl7et"><button class="button button1">Site</button></a>
+
+    </div>
+    <div class="col">
+        <button class="button but1">Artificial intelligence and machine learning</button>
+        <div class="d-flex flex-row">
+        <button class="button but1">Data science</button>
+        <button class="button but1">Vision Computing</button>
+        </div>
+    </div>
+</div>
+</div>
+<hr>
+<div class="container">
+  <div class="row">
+    <div class="col text-center">
+      <img src="https://media.istockphoto.com/id/1131164548/vector/avatar-5.jpg?s=612x612&w=0&k=20&c=CK49ShLJwDxE4kiroCR42kimTuuhvuo2FH5y_6aSgEo=" class="img">
+    </div>
+    <div class="marg1 col">
+        <h2>K David Raju</h2>
+        <p>Assistant Professor</p>
+        <p>Cabin: {C 109}</p>
+        <a href="#"><button class="button button1">Profile</button></a>&nbsp;&nbsp;&nbsp;
+        <a href="#"><button class="button button1">Site</button></a>
+
+    </div>
+    <div class="col">
+        <button class="button but1">Artificial intelligence and machine learning</button>
+        <div class="d-flex flex-row">
+        <button class="button but1">Data science</button>
+        <button class="button but1">Vision Computing</button>
+        </div>
+    </div>
+</div>
+</div>
+<hr>
+<div class="container">
+  <div class="row">
+    <div class="col text-center">
+      <img src="./assests/images/6,C109a.jpg" class="img">
+    </div>
+    <div class="marg1 col">
+        <h2>D Srikar</h2>
+        <p>Assistant Professor</p>
+        <p>Cabin: {C 109}</p>
+        <a href="#"><button class="button button1">Profile</button></a>&nbsp;&nbsp;&nbsp;
+        <a href="https://www.google.com/url?q=https%3A%2F%2Fsites.google.com%2Fview%2Fsrikar-d&sa=D&sntz=1&usg=AOvVaw0dU1HGk0l4rL68jP6ywVNh"><button class="button button1">Site</button></a>
+
+    </div>
+    <div class="col">
+        <button class="button but1">Artificial intelligence and machine learning</button>
+        <div class="d-flex flex-row">
+        <button class="button but1">Data science</button>
+        <button class="button but1">Vision Computing</button>
+        </div>
+    </div>
+</div>
+</div>
+<hr>
+<div class="container">
+  <div class="row">
+    <div class="col-lg-4 col-sm-12 text-center">
+      <img src="./assests/images/6,C109a.jpg" class="img">
+    </div>
+    <div class="marg1 col-lg-4 col-sm-12">
+        <h2>G Padma Rao</h2>
+        <p>Assistant Professor</p>
+        <p>Cabin: {C 109}</p>
+        <a href="#"><button class="button button1">Profile</button></a>&nbsp;&nbsp;&nbsp;
+        <a href="https://sites.google.com/view/gpadmarao"><button class="button button1">Site</button></a>
+
+    </div>
+    <div class="col">
+        <button class="button but1">Artificial intelligence and machine learning</button>
+        <div class="d-flex flex-row">
+        <button class="button but1">Data science</button>
+        <button class="button but1">Vision Computing</button>
+        </div>
+    </div>
+</div>
+</div>
+</div>
+        <div class="down-container div4">
+          <h1 class="heading" style="text-align: center;">Non-Teaching staff</h1>
+          <hr>
+          <div class="container">
+              <div class="row">
+                <div class="col text-center">
+                  <img src="https://img.freepik.com/free-photo/portrait-smiling-senior-businessman-library_1262-2398.jpg?size=626&ext=jpg&ga=GA1.1.1012417482.1662713952&semt=sph" class="img">
+                </div>
+                <div class="marg1 col">
+                    <h2>Dr.Jatindra kumar</h2>
+                    <p>Associative Professor & Head of the Department</p>
+                    <p>EMAIL: jatindrakumar@gmail.com</p>
+                    <p>Cabin: {B 506}</p>
+                    <button class="button button1">Profile</button>&nbsp;&nbsp;&nbsp;
+                    <button class="button button1">Site</button>
+
+                </div>
+                <div class="col-lg-4 col-sm-12">
+                    <button class="button but1">Artificial intelligence and machine learning</button>
+                    <div class="d-flex flex-row">
+                    <button class="button but1">Data science</button>
+                    <button class="button but1">Vision Computing</button>
+                    </div>
+                </div>
+            </div>
+          </div>
+          <hr>
+          <div class="container">
+            <div class="row">
+              <div class="col text-center">
+                <img src="./assests/images/1(1),B204.jpg" class="img">
+              </div>
+              <div class="marg1 col">
+                  <h2>Dr. V CHANDRA SEKHAR</h2>
+                  <p>Professor & Head of the Department</p>
+                  <p>EMAIL: dr.vcs@srkrec.ac.in</p>
+                  <p>Cabin: {B 204}</p>
+                  <a href="https://drive.google.com/file/d/17Q0MDhRf8rdtif-pI6lfBPRrD9m8NsFE/view?usp=sharing"><button class="button button1">Profile</button></a>&nbsp;&nbsp;&nbsp;
+                  <a href="https://www.google.com/url?q=https%3A%2F%2Fsites.google.com%2Fview%2Fsrkrvcs&sa=D&sntz=1&usg=AOvVaw3g-fV1B6Mx6x4v6Qa-83UN"><button class="button button1">Site</button></a>
+
+              </div>
+              <div class="col-lg-4 col-sm-12">
+                  <button class="button but1">Artificial intelligence and machine learning</button>
+                  <div class="d-flex flex-row">
+                  <button class="button but1">Data science</button>
+                  <button class="button but1">Vision Computing</button>
+                  </div>
+              </div>
+          </div>
+        </div>
+          <hr>
+          <div class="container">
+            <div class="row">
+              <div class="col text-center">
+                <img src="https://img.freepik.com/free-photo/portrait-smiling-senior-businessman-library_1262-2398.jpg?size=626&ext=jpg&ga=GA1.1.1012417482.1662713952&semt=sph" class="img">
+              </div>
+              <div class="marg1 col">
+                  <h2>Dr.Jatindra kumar dash</h2>
+                  <p>Associative Professor & Head of the Department</p>
+                  <p>EMAIL: jatindrakumar@gmail.com</p>
+                  <button class="button button1">Profile</button>&nbsp;&nbsp;&nbsp;
+                    <button class="button button1">Site</button>
+              </div>
+              <div class="col-lg-4 col-sm-12">
+                  <button class="button but1">Artificial intelligence and machine learning</button>
+                  <div class="d-flex flex-row">
+                  <button class="button but1">Data science</button>
+                  <button class="button but1">Vision Computing</button>
+                  </div>
+              </div>
+          </div>
+        </div>
+          <hr>
+          <div class="container">
+            <div class="row">
+              <div class="col text-center">
+                <img src="https://img.freepik.com/free-photo/portrait-smiling-senior-businessman-library_1262-2398.jpg?size=626&ext=jpg&ga=GA1.1.1012417482.1662713952&semt=sph" class="img">
+              </div>
+              <div class="marg1 col">
+                  <h2>Dr.Jatindra kumar dash</h2>
+                  <p>Associative Professor & Head of the Department</p>
+                  <p>EMAIL: jatindrakumar@gmail.com</p>
+                  <button class="button button1">Profile</button>&nbsp;&nbsp;&nbsp;
+                    <button class="button button1">Site</button>
+              </div>
+              <div class="col-lg-4 col-sm-12">
+                  <button class="button but1">Artificial intelligence and machine learning</button>
+                  <div class="d-flex flex-row">
+                  <button class="button but1">Data science</button>
+                  <button class="button but1">Vision Computing</button>
+                  </div>
+              </div>
+          </div>
+        </div>
+      </div>
+      <footer class="w3l-footer-22 ">
+        <div class="footer-sub py-5">
+          <div class="container1 ">
+            <div class="row sub-columns">
+              <div class="col-lg-4 col-md-6 sub-one-left ab-right-cont pr-lg-5 mb-md-0 mb-4">
+                <h3>About</h3>
+                <p>Sagi Rama Krishnam Raju Engineering College (SRKREC), established in 1980, is a self-financed academic institution of coeducation striving to provide a high quality technical education to engineering aspirants. Being one of the premier and well-established technical institutions of the country, it continues to render service to the nation and the world at large with its alumni holding highly prestigious positions and making substantial contribution.</p>
+                <div class="columns-2">
+                  <ul class="social">
+                    <li><a href="#facebook"><span class="fab fa-facebook-f" aria-hidden="true"></span></a></li>
+                    <li><a href="#linkedin"><span class="fab fa-linkedin-in" aria-hidden="true"></span></a></li>
+                    <li><a href="#twitter"><span class="fab fa-twitter" aria-hidden="true"></span></a></li>
+                    <li><a href="#google"><span class="fab fa-google-plus-g" aria-hidden="true"></span></a></li>
+                    <li><a href="#pinterest"><span class="fab fa-pinterest-p" aria-hidden="true"></span></a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-lg-2 col-md-6 sub-two-right pl-lg-5">
+                <h3>Useful Links</h3>
+                <ul>
+                  <li><a href="index.html"><span class="fas fa-chevron-right mr-2"></span>&nbsp;&nbsp;Home</a></li>
+                  <li><a href="about.html"><span class="fas fa-chevron-right mr-2"></span>&nbsp;&nbsp;About</a></li>
+                  <li><a href="courses.html"><span class="fas fa-chevron-right mr-2"></span>&nbsp;&nbsp;Courses</a></li>
+                  <li><a href="contact.html"><span class="fas fa-chevron-right mr-2"></span>&nbsp;&nbsp;Contact</a></li>
+                </ul>
+              </div>
+              <div class="col-lg-3 col-md-6 sub-two-right pl-lg-5 mt-md-0 mt-4">
+                <h3>Help & Support</h3>
+                <ul>
+                  <li><a href="#live"><span class="fas fa-chevron-right mr-2"></span>&nbsp;&nbsp;Live Chart</a></li>
+                  <li><a href="#faq"><span class="fas fa-chevron-right mr-2"></span>&nbsp;&nbsp;FAQ</a></li>
+                  <li><a href="#support"><span class="fas fa-chevron-right mr-2"></span>&nbsp;&nbsp;Support</a></li>
+                  <li><a href="#terms"><span class="fas fa-chevron-right mr-2"></span>&nbsp;&nbsp;Terms of Service</a></li>
+                </ul>
+              </div>
+              <div class="col-lg-3 col-md-6 sub-two-right mt-md-0 mt-4">
+                <h3>Research</h3>
+                <ul>
+                  <li><a href="#"><span class="fas fa-chevron-right mr-2"></span>&nbsp;&nbsp;Academic Divisions</a></li>
+                  <li><a href="#"><span class="fas fa-chevron-right mr-2"></span>&nbsp;&nbsp;Student Research</a></li>
+                  <li><a href="#"><span class="fas fa-chevron-right mr-2"></span>&nbsp;&nbsp;Centers & Institutes</a></li>
+                  <li><a href="#"><span class="fas fa-chevron-right mr-2"></span>&nbsp;&nbsp;Research Facilities</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="columns">
+            <p>© 2023 SRKREC-CSE. All rights reserved. Design by <a href="https://srkrec.edu.in/" target="_blank">SRKREC</a></p>
+          </div>
+        </div>
+      </footer>
+        <script src="faculty.js">
+           
+
+            
+        </script>
+    </body>
+</html>
